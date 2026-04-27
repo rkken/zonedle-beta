@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guesses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guesses > div {
+    display: flex;
+    width: 70vh;
+    height: 5vh;
+    margin: 1vh;
+    border: solid;
+    border-color: gray;
+}
+
+.play-button {
+    border: none;
+    background: none;
+    color: white;
+}
+.info {
+    width: 70vh;
+    height: 40vh;
+    border: solid;
+    border-color: beige;
+}
+.input-container {
+    position:relative
+}
+.suggestions {
+    position: absolute;
+    bottom: 100%;
+    width: 70vh;
+    height: 30vh;
+    background-color: darkgrey;
+}
+
+.search {
+    border: none;
+    width: 70vh;
+    height: 3vh;
+    border-color: white;
+}
