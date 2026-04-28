@@ -1,9 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const suggestionDisplay = document.querySelector('.suggestions')
     const input = document.querySelector('.search')
+    const imageDisplay = document.querySelector('.image')
     const focusOn = false
 
     const options = ['Apple Sauce', 'Applejack', 'Application', 'Orange Juice', 'Orange Soda', 'Orange You Glad', 'Bananarama', 'Banana Bread', 'Banana Bomb']
+
+    imageDisplay.src = 'assets/GHZ.png'
+
+    const zones = [
+        'Green Hill Zone (Sonic the Hedgehog)',
+        'Marble Zone (Sonic the Hedgehog)',
+        'Spring Yard Zone (Sonic the Hedgehog)',
+        'Labryinth Zone (Sonic the Hedgehog)',
+        'Starlight Zone (Sonic the Hedgehog)',
+        'Scrap Brain Zone (Sonic the Hedgehog)'
+    ]
     //suggestion display/fiter
     input.addEventListener('blur', () => {
         suggestionDisplay.style.opacity = '0%'
@@ -11,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     input.addEventListener('input', () => {
         const query = input.value.toLowerCase()
-        const matches = options.filter(x => x.toLowerCase().includes(query))
+        const matches = zones.filter(x => x.toLowerCase().includes(query))
         console.log(matches)
         //need to change this to be more strict (ie: stops matching when a letter is off)
 
