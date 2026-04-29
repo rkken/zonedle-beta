@@ -8,13 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const options = ['Apple Sauce', 'Applejack', 'Application', 'Orange Juice', 'Orange Soda', 'Orange You Glad', 'Bananarama', 'Banana Bread', 'Banana Bomb']
 
-    const dailyAnswer = answers[2]
     let scale = 10
     imageDisplay.src = 'assets/s2/SCZ.png'
     imageDisplay.style.transform = `scale(${scale})`
 
     //solution set up (default for now)
-    const solution = dailyAnswer.zone
+    const solution = answers[2]
 
 
 
@@ -36,13 +35,22 @@ document.addEventListener('DOMContentLoaded', () => {
             suggestionList.replaceChildren()
             matches.forEach(x => {
                 const li = document.createElement('li')
-                li.innerText = x.zone
+
+                const title = document.createElement('div')
+                title.textContent = x.zone
+
+                const game = document.createElement('div')
+                game.textContent = x.game
+
+                li.appendChild(title);
+                li.appendChild(game);
+                
                 suggestionList.appendChild(li)
             });
         };
         const listItems = document.querySelectorAll('li')
         listItems.forEach(li => li.addEventListener('click', () => {
-            input.value = li.innerText
+            input.value = li.children[0].innerText
         }));
     })
 
@@ -51,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     submitButton.addEventListener('click', () => {
         const attempt = input.value
-        if (attempt === solution) {
+        if (attempt === solution.zone) {
             console.log('solution found')
         };
 

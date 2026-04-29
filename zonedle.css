@@ -32,6 +32,8 @@ body {
     bottom: 100%;
     width: 60vh;
     height: 30vh;
+    max-height: 30vh;
+    overflow-y: auto;
     background-color: rgb(46, 45, 45);
 
     border-style: solid;
@@ -99,6 +101,11 @@ li {
     padding: 2vh;
     border-radius: 20px;
     cursor: pointer;
+}
+
+li div:last-child {
+    font-size: small;
+    opacity: 50%;
 }
 
 li:hover {
