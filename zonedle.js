@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const dailyAnswer = answers[2]
     let scale = 10
-    imageDisplay.src = 'assets/NT.png'
+    imageDisplay.src = 'assets/s2/SCZ.png'
     imageDisplay.style.transform = `scale(${scale})`
 
     //solution set up (default for now)
