@@ -50,6 +50,8 @@ body {
     width: 60vh;
     height: 4vh;
     border-color: azure;
+
+    font-size: large;
 }
 
 .button-container {

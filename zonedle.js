@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     skipButton.addEventListener('click', () => {
         console.log('clicked')
         scale = scale - 2
+        imageDisplay.style.transition = 'transform 0.3s ease'
         imageDisplay.style.transform = `scale(${scale})`
         console.log(`scale decreased to ${scale}`)
     })

@@ -365,7 +365,6 @@ export const answers = [
         },
     //#endregion
     //#regionstart Knuckles' Chaotix
-
         {
             zone: 'Isolated Island',
             source: 'assets/kc/II.png',
@@ -392,12 +391,41 @@ export const answers = [
             game: 'Knuckles\' Chaotix'
         },
         {
-            one: 'Marina Madness',
+            zone: 'Marina Madness',
             source: 'assets/kc/MM.png',
             game: 'Knuckles\' Chaotix'
         },
-        
 //#regionend
-
-
+//#regionstart Sonic Chaos
+        {
+            zone: 'Turquoise Hill Zone',
+            source: 'assets/sch/THZ.png',
+            game: 'Sonic Chaos'
+        },
+        {
+            zone: 'Gigalopolis Zone',
+            source: 'assets/sch/GZ.png',
+            game: 'Sonic Chaos'
+        },
+        {
+            zone: 'Sleeping Egg Zone',
+            source: 'assets/sch/SEZ.png',
+            game: 'Sonic Chaos'
+        },
+        {
+            zone: 'Mecha Green Hill Zone',
+            source: 'assets/sch/MGHZ.png',
+            game: 'Sonic Chaos'
+        },
+        {
+            zone: 'Aqua Planet Zone',
+            source: 'assets/sch/APZ.png',
+            game: 'Sonic Chaos'
+        },
+        {
+            zone: 'Electric Egg Zone',
+            source: 'assets/sch/EEZ.png',
+            game: 'Sonic Chaos'
+        },
+//#regionend
     ]
