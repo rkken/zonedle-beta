@@ -8,12 +8,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const options = ['Apple Sauce', 'Applejack', 'Application', 'Orange Juice', 'Orange Soda', 'Orange You Glad', 'Bananarama', 'Banana Bread', 'Banana Bomb']
 
-    let scale = 10
-    imageDisplay.src = 'assets/s2/SCZ.png'
-    imageDisplay.style.transform = `scale(${scale})`
+    //game logic vars
+    let round = 1
+
 
     //solution set up (default for now)
-    const solution = answers[2]
+    let index = 0
+    let solution = answers[index]
+
+    let scale = 10
+    imageDisplay.src = solution.source
+    imageDisplay.style.transform = `scale(${scale})`
+    //for debugging purposes
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowRight') {
+            index++
+            solution = answers[index]
+            imageDisplay.src = answers[index].source
+        }
+        else if (event.key === 'ArrowLeft') {
+            index--
+            solution = answers[index]
+            imageDisplay.src = answers[index].source
+        }
+    })
 
 
 
@@ -58,21 +76,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitButton = document.querySelector('.submit')
     
     submitButton.addEventListener('click', () => {
-        const attempt = input.value
-        if (attempt === solution.zone) {
+        const attempt = answers.find(x => x.zone === input.value)
+        if (attempt.zone === solution.zone) {
             console.log('solution found')
-        };
-
+        }
+        else {
+            nextRound(attempt)
+        }
     });
 
     const skipButton = document.querySelector('.skip')
     skipButton.addEventListener('click', () => {
         console.log('clicked')
+        nextRound()
+    });
+
+    function nextRound(attempt) {
+        console.log(attempt)
+        if (attempt.game === solution.game) {
+            console.log('🟧')
+        }
+        else {
+            console.log('🟥')
+        }
+        round++
         scale = scale - 2
         imageDisplay.style.transition = 'transform 0.3s ease'
         imageDisplay.style.transform = `scale(${scale})`
         console.log(`scale decreased to ${scale}`)
-    })
+        console.log(`round ${round}`)
+
+
+    }
 
 
 

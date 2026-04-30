@@ -96,12 +96,12 @@ export const answers = [
     //#region Sonic 3
         {
             zone: 'Angel Island Zone (Act 1)',
-            source: 'assets/s3/AEZ1.png',
+            source: 'assets/s3/AIZ1.png',
             game: 'Sonic the Hedgehog 3'
         },
         {
             zone: 'Angel Island Zone (Act 2)',
-            source: 'assets/s3/AEZ2.png',
+            source: 'assets/s3/AIZ2.png',
             game: 'Sonic the Hedgehog 3'
         },
         {
@@ -426,6 +426,126 @@ export const answers = [
             zone: 'Electric Egg Zone',
             source: 'assets/sch/EEZ.png',
             game: 'Sonic Chaos'
+        },
+//#regionend
+//#regionstart Sonic 8 bit
+
+        {
+            zone: 'Green Hill Zone',
+            source: 'assets/s8b/GHZ.png',
+            game: 'Sonic the Hedgehog (8 bit)'
+        },
+
+        {
+            zone: 'Bridge Zone',
+            source: 'assets/s8b/BZ.png',
+            game: 'Sonic the Hedgehog (8 bit)'
+        },
+
+        {
+            zone: 'Jungle Zone',
+            source: 'assets/s8b/JZ.png',
+            game: 'Sonic the Hedgehog (8 bit)'
+        },
+
+        {
+            zone: 'Labryinth Zone',
+            source: 'assets/s8b/LZ.png',
+            game: 'Sonic the Hedgehog (8 bit)'
+        },
+
+        {
+            zone: 'Scrap Brain Zone',
+            source: 'assets/s8b/SBZ.png',
+            game: 'Sonic the Hedgehog (8 bit)'
+        },
+
+        {
+            zone: 'Sky Base Zone',
+            source: 'assets/s8b/SkBZ.png',
+            game: 'Sonic the Hedgehog (8 bit)'
+        },
+//#regionend
+//#regionstart Sonic 2 8 bit
+
+        {
+            zone: 'Under Ground Zone',
+            source: 'assets/s28b/UGZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+
+        {
+            zone: 'Sky High Zone',
+            source: 'assets/s28b/SHZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+
+        {
+            zone: 'Aqua Lake Zone',
+            source: 'assets/s28b/ALZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+
+        {
+            zone: 'Green Hills Zone',
+            source: 'assets/s28b/GHZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+
+        {
+            zone: 'Gimmick Mountain Zone',
+            source: 'assets/s28b/GMZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+
+        {
+            zone: 'Scrambled Egg Zone',
+            source: 'assets/s28b/SEZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+
+        {
+            zone: 'Crystal Egg Zone',
+            source: 'assets/s28b/CEZ.png',
+            game: 'Sonic the Hedghehog 2 (8 bit)'
+        },
+//#regionend
+//#regionstart Sonic Triple Trouble
+
+        {
+            zone: 'Great Turquoise Zone',
+            source: 'assets/stt/GTZ.png',
+            game: 'Sonic the Hedgehog Triple Trouble'
+        },
+
+        {
+            zone: 'Sunset Park Zone',
+            source: 'assets/stt/SPZ.png',
+            game: 'Sonic the Hedgehog Triple Trouble'
+        },
+
+        {
+            zone: 'Meta Junglira Zone',
+            source: 'assets/stt/MJZ.png',
+            game: 'Sonic the Hedgehog Triple Trouble'
+        },
+
+        {
+            zone: 'Robotnik Winter Zone',
+            source: 'assets/stt/RWZ.png',
+            game: 'Sonic the Hedgehog Triple Trouble'
+        },
+
+        {
+            zone: 'Tidal Plant Zone',
+            source: 'assets/stt/TPZ.png',
+            game: 'Sonic the Hedgehog Triple Trouble'
+        },
+
+        {
+            zone: 'Atomic Destroyer Zone',
+            source: 'assets/stt/ADZ.png',
+            game: 'Sonic the Hedgehog Triple Trouble'
         },
 //#regionend
     ]
