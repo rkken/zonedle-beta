@@ -364,7 +364,7 @@ export const answers = [
             game: 'Sonic the Hedgehog CD'
         },
     //#endregion
-    //#regionstart Knuckles' Chaotix
+    //#region Knuckles' Chaotix
         {
             zone: 'Isolated Island',
             source: 'assets/kc/II.png',
@@ -395,8 +395,8 @@ export const answers = [
             source: 'assets/kc/MM.png',
             game: 'Knuckles\' Chaotix'
         },
-//#regionend
-//#regionstart Sonic Chaos
+//#endregion
+    //#region Sonic Chaos
         {
             zone: 'Turquoise Hill Zone',
             source: 'assets/sch/THZ.png',
@@ -427,8 +427,8 @@ export const answers = [
             source: 'assets/sch/EEZ.png',
             game: 'Sonic Chaos'
         },
-//#regionend
-//#regionstart Sonic 8 bit
+//#endregion
+    //#region Sonic 8 bit
 
         {
             zone: 'Green Hill Zone',
@@ -465,8 +465,8 @@ export const answers = [
             source: 'assets/s8b/SkBZ.png',
             game: 'Sonic the Hedgehog (8 bit)'
         },
-//#regionend
-//#regionstart Sonic 2 8 bit
+//#endregion
+    //#region Sonic 2 8 bit
 
         {
             zone: 'Under Ground Zone',
@@ -509,8 +509,8 @@ export const answers = [
             source: 'assets/s28b/CEZ.png',
             game: 'Sonic the Hedghehog 2 (8 bit)'
         },
-//#regionend
-//#regionstart Sonic Triple Trouble
+//#endregion
+    //#region Sonic Triple Trouble
 
         {
             zone: 'Great Turquoise Zone',
@@ -547,5 +547,56 @@ export const answers = [
             source: 'assets/stt/ADZ.png',
             game: 'Sonic the Hedgehog Triple Trouble'
         },
-//#regionend
+    //#endregion
+    //#region Sonic 3D Blast
+
+        {
+            zone: 'Green Grove Zone',
+            source: 'assets/s3db/GGZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'Rusty Ruin Zone',
+            source: 'assets/s3db/RRZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'Spring Stadium Zone',
+            source: 'assets/s3db/SSZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'Diamond Dust Zone',
+            source: 'assets/s3db/DDZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'Volcano Valley Zone',
+            source: 'assets/s3db/VVZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'Gene Gadget Zone',
+            source: 'assets/s3db/GeGZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'Panic Puppet Zone',
+            source: 'assets/s3db/PPZ.png',
+            game: 'Sonic 3D Blast'
+        },
+
+        {
+            zone: 'The Final Fight',
+            source: 'assets/s3db/TFF.png',
+            game: 'Sonic 3D Blast'
+        },
+    //#endregion
+    
     ]

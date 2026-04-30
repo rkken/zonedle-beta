@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageDisplay = document.querySelector('.image')
     const focusOn = false
 
-    const options = ['Apple Sauce', 'Applejack', 'Application', 'Orange Juice', 'Orange Soda', 'Orange You Glad', 'Bananarama', 'Banana Bread', 'Banana Bomb']
-
     //game logic vars
     let round = 1
+    let attemptArr = []
+    let resultArr = []
 
 
     //solution set up (default for now)
@@ -78,7 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
     submitButton.addEventListener('click', () => {
         const attempt = answers.find(x => x.zone === input.value)
         if (attempt.zone === solution.zone) {
-            console.log('solution found')
+            const statusIndicators = document.querySelectorAll('.status-container > div')
+            resultArr.push('🟩')
+            statusIndicators[round-1].style.backgroundColor = 'chartreuse'
+            statusIndicators[round-1].style.opacity = '1'
+            const solutionFound = true
+            endGame(solutionFound)
         }
         else {
             nextRound(attempt)
@@ -92,20 +97,90 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function nextRound(attempt) {
-        console.log(attempt)
-        if (attempt.game === solution.game) {
-            console.log('🟧')
+        const statusIndicators = document.querySelectorAll('.status-container > div')
+        if (!attempt) {
+            resultArr.push('⬜️')
+            statusIndicators[round-1].style.opacity = '1'
+            statusIndicators[round-1].style.backgroundColor = '#b0b0b0ff'
+        }
+        else if (attempt.game === solution.game) {
+            resultArr.push('🟧')
+            statusIndicators[round-1].style.opacity = '1'
+            statusIndicators[round-1].style.backgroundColor = '#ff8800ff'
         }
         else {
-            console.log('🟥')
+            resultArr.push('🟥')
+            statusIndicators[round-1].style.opacity = '1'
+            statusIndicators[round-1].style.backgroundColor = '#fc0000'
         }
+        attempt ? attemptArr.push(attempt) : attemptArr.push('Skipped')
+        console.log(...resultArr)
+
+        if (round === 5) {
+            endGame()
+        }
+        else {
         round++
         scale = scale - 2
         imageDisplay.style.transition = 'transform 0.3s ease'
         imageDisplay.style.transform = `scale(${scale})`
+
         console.log(`scale decreased to ${scale}`)
         console.log(`round ${round}`)
 
+        input.value = ''
+
+
+        }
+    };
+
+    function endGame(solutionFound) {
+        const inputContainer = document.querySelector('.input-container')
+        inputContainer.style.display = 'none'
+
+        const resultContainer = document.querySelector('.result-container')
+        resultContainer.classList.add('active');
+
+        imageDisplay.src = solution.source
+        imageDisplay.style.transform = `scale(1)`
+        imageDisplay.style.transition = 'transform 500ms ease'
+
+        const resultComment = document.querySelector('.result-comment')
+        
+        if (solutionFound) {
+            switch (round) {
+                case 5:
+                    resultComment.innerText = 'Good'
+                    resultComment.style.color ='#fc0000'
+                    break;
+                case 4:
+                    resultComment.innerText = 'Great'
+                    resultComment.style.color ='#fcfc00'
+                    break;
+                case 3:
+                    resultComment.innerText = 'Awesome'
+                    resultComment.style.color ='#fcfc00'
+                    break;
+                case 2:
+                    resultComment.innerText = 'Outstanding!'
+                    resultComment.style.color = '#b46c48'
+                    break;
+                case 1:
+                    resultComment.innerText = 'Amazing!!'
+                    resultComment.style.color = 'chartreuse'
+                    break;
+            }
+        }
+        else {
+            resultComment.innerText = 'Too Bad!'
+            resultComment.style.color ='#fc0000'
+        }
+
+        const resultZone = document.querySelector('.result-zone')
+        const resultGame = document.querySelector('.result-game')
+
+        resultZone.innerText = solution.zone
+        resultGame.innerText = solution.game
 
     }
 
