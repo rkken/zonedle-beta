@@ -155,7 +155,7 @@ export const answers = [
             game: 'Sonic the Hedgehog 3'
         },
     //#endregion
-    //#regionstart Sonic & Knuckles
+    //#region Sonic & Knuckles
         {
             zone: 'Mushroom Hill Zone (Act 1)',
             source: 'assets/sk/MHZ1.png',
@@ -712,6 +712,259 @@ export const answers = [
             zone: 'Final Egg',
             source: 'assets/sa1/FE.png',
             game: 'Sonic Adventure'
+        },
+    //#endregion
+    //#region Sonic Pocket Adventure
+
+        {
+            zone: 'Neo South Island Zone',
+            source: 'assets/spa/NSIZ.png',
+            game: 'Sonic Pocket Adventure'
+        },
+
+        {
+            zone: 'Secret Plant Zone',
+            source: 'assets/spa/SPZ.png',
+            game: 'Sonic Pocket Adventure'
+        },
+
+        {
+            zone: 'Cosmic Casino Zone',
+            source: 'assets/spa/CCZ.png',
+            game: 'Sonic Pocket Adventure'
+        },
+
+        {
+            zone: 'Aquatic Relix Zone',
+            source: 'assets/spa/ARZ.png',
+            game: 'Sonic Pocket Adventure',
+            override: 'center'
+        },
+
+        {
+            zone: 'Sky Chase Zone',
+            source: 'assets/spa/SCZ.png',
+            game: 'Sonic Pocket Adventure'
+        },
+
+        {
+            zone: 'Aerobase Zone',
+            source: 'assets/spa/ABZ.png',
+            game: 'Sonic Pocket Adventure',
+            override: 'center'
+        },
+
+        {
+            zone: 'Gigantic Angel Zone',
+            source: 'assets/spa/GAZ.png',
+            game: 'Sonic Pocket Adventure',
+            override: 'center'
+        },
+
+        {
+            zone: 'Last Utopia Zone',
+            source: 'assets/spa/LUZ.png',
+            game: 'Sonic Pocket Adventure'
+        },
+
+        {
+            zone: 'Chaotic Space Zone',
+            source: 'assets/spa/CSZ.png',
+            game: 'Sonic Pocket Adventure',
+            override: 'center'
+        },
+    //#endregion
+    //#region Sonic Adventure 2
+        {
+            zone: 'City Escape',
+            source: 'assets/sa2/CE.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Wild Canyon',
+            source: 'assets/sa2/WC.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Prison Lane',
+            source: 'assets/sa2/PL.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Metal Harbor',
+            source: 'assets/sa2/MH.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Green Forest',
+            source: 'assets/sa2/GF.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Pumpkin Hill',
+            source: 'assets/sa2/PH.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Mission Street',
+            source: 'assets/sa2/MS.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Aquatic Mine',
+            source: 'assets/sa2/AM.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Route 101',
+            source: 'assets/sa2/R101.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Hidden Base',
+            source: 'assets/sa2/HB.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Pyramid Cave',
+            source: 'assets/sa2/PC.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Death Chamber',
+            source: 'assets/sa2/DC.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Eternal Engine',
+            source: 'assets/sa2/EE.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Meteor Herd',
+            source: 'assets/sa2/MHe.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Crazy Gadget',
+            source: 'assets/sa2/CG.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Final Rush',
+            source: 'assets/sa2/FR.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Iron Gate',
+            source: 'assets/sa2/IG.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Dry Lagoon',
+            source: 'assets/sa2/DL.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Sand Ocean',
+            source: 'assets/sa2/SO.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Radical Highway',
+            source: 'assets/sa2/RH.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Egg Quarters',
+            source: 'assets/sa2/EQ.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Lost Colony',
+            source: 'assets/sa2/LC.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Weapons Bed',
+            source: 'assets/sa2/WB.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Security Hall',
+            source: 'assets/sa2/SH.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'White Jungle',
+            source: 'assets/sa2/WJ.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Route 280',
+            source: 'assets/sa2/R280.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Sky Rail',
+            source: 'assets/sa2/SR.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Mad Space',
+            source: 'assets/sa2/MS.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Cosmic Wall',
+            source: 'assets/sa2/CW.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Final Chase',
+            source: 'assets/sa2/FC.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Cannon\'s Core',
+            source: 'assets/sa2/CC.png',
+            game: 'Sonic Adventure 2'
+        },
+
+        {
+            zone: 'Green Hill',
+            source: 'assets/sa2/GH.png',
+            game: 'Sonic Adventure 2'
         },
     //#endregion
     ]
