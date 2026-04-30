@@ -439,7 +439,8 @@ export const answers = [
         {
             zone: 'Bridge Zone',
             source: 'assets/s8b/BZ.png',
-            game: 'Sonic the Hedgehog (8 bit)'
+            game: 'Sonic the Hedgehog (8 bit)',
+            override: 'center'
         },
 
         {
@@ -477,7 +478,8 @@ export const answers = [
         {
             zone: 'Sky High Zone',
             source: 'assets/s28b/SHZ.png',
-            game: 'Sonic the Hedghehog 2 (8 bit)'
+            game: 'Sonic the Hedghehog 2 (8 bit)',
+            override: '30% 30%'
         },
 
         {
@@ -521,7 +523,8 @@ export const answers = [
         {
             zone: 'Sunset Park Zone',
             source: 'assets/stt/SPZ.png',
-            game: 'Sonic the Hedgehog Triple Trouble'
+            game: 'Sonic the Hedgehog Triple Trouble',
+            override: 'center'
         },
 
         {
@@ -533,7 +536,8 @@ export const answers = [
         {
             zone: 'Robotnik Winter Zone',
             source: 'assets/stt/RWZ.png',
-            game: 'Sonic the Hedgehog Triple Trouble'
+            game: 'Sonic the Hedgehog Triple Trouble',
+            override: '50% 60%'
         },
 
         {
@@ -598,5 +602,116 @@ export const answers = [
             game: 'Sonic 3D Blast'
         },
     //#endregion
-    
+    //#region Sonic Blast
+
+        {
+            zone: 'Green Hill Zone',
+            source: 'assets/sb/GHZ.png',
+            game: 'Sonic Blast'
+        },
+
+        {
+            zone: 'Yellow Desert Zone',
+            source: 'assets/sb/YDZ.png',
+            game: 'Sonic Blast'
+        },
+
+        {
+            zone: 'Red Volcano Zone',
+            source: 'assets/sb/RVZ.png',
+            game: 'Sonic Blast'
+        },
+
+        {
+            zone: 'Blue Marine Zone',
+            source: 'assets/sb/BMZ.png',
+            game: 'Sonic Blast'
+        },
+
+        {
+            zone: 'Silver Castle Zone',
+            source: 'assets/sb/SCZ.png',
+            game: 'Sonic Blast'
+        },
+    //#endregion
+    //#region Sonic Adventure
+
+        {
+            zone: 'Emerald Coast',
+            source: 'assets/sa1/EC.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Windy Valley',
+            source: 'assets/sa1/WV.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Casinopolis',
+            source: 'assets/sa1/C.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Icecap',
+            source: 'assets/sa1/I.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Twinkle Park',
+            source: 'assets/sa1/TP.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Speed Highway',
+            source: 'assets/sa1/SH.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Red Mountain',
+            source: 'assets/sa1/RM.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Sky Deck',
+            source: 'assets/sa1/SD.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Sky Chase (Act 1)',
+            source: 'assets/sa1/SC1.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Sky Chase (Act 2)',
+            source: 'assets/sa1/SC2.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Lost World',
+            source: 'assets/sa1/LW.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Hot Shelter',
+            source: 'assets/sa1/HS.png',
+            game: 'Sonic Adventure'
+        },
+
+        {
+            zone: 'Final Egg',
+            source: 'assets/sa1/FE.png',
+            game: 'Sonic Adventure'
+        },
+    //#endregion
     ]

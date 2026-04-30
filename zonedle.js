@@ -10,7 +10,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let round = 1
     let attemptArr = []
     let resultArr = []
+    let state = {}
 
+    /* come back to this
+    const saved = localStorage.getItem('state')
+    if (saved) {
+        const state = JSON.parse(saved)
+        endGame(state)
+    }
+    */
 
     //solution set up (default for now)
     let index = 0
@@ -18,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let scale = 10
     imageDisplay.src = solution.source
+    imageDisplay.style.transformOrigin = solution.override ? solution.override : '30% 30%'
     imageDisplay.style.transform = `scale(${scale})`
     //for debugging purposes
     document.addEventListener('keydown', (event) => {
@@ -25,11 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
             index++
             solution = answers[index]
             imageDisplay.src = answers[index].source
+            console.log(`${solution.game} - ${solution.zone}`)
+            imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
         }
         else if (event.key === 'ArrowLeft') {
             index--
             solution = answers[index]
             imageDisplay.src = answers[index].source
+            console.log(`${solution.game} - ${solution.zone}`)
+            imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
         }
     })
 
@@ -129,8 +142,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`round ${round}`)
 
         input.value = ''
-
-
         }
     };
 
@@ -182,10 +193,30 @@ document.addEventListener('DOMContentLoaded', () => {
         resultZone.innerText = solution.zone
         resultGame.innerText = solution.game
 
+        if (resultArr.length < 5) {
+            console.log(resultArr.length)
+            for (let i = resultArr.length; i < 5; i++) {
+                resultArr.push('⬜️')
+            }
+        }
+        const resultString = resultArr.join('')
+        console.log(resultString)
+        //state
+        state = {
+            round: round,
+            solutionFound: solutionFound,
+            solutionZone: solution.zone,
+            solutionGame: solution.game,
+            resultString: resultString,
+            resultComment: resultComment.innerText
+        }
     }
+    //share button hook
+    const shareButton = document.querySelector('.share-button')
+    shareButton.addEventListener('click', () => {
+        navigator.clipboard.writeText(
+            `Sonic Zonedle 30/4/26 \n🔵: ${state.resultString} \n\n#${state.resultComment}`
+        )
 
-
-
-
-
+    });
 });
