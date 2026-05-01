@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (resultArr.length < 5) {
             console.log(resultArr.length)
             for (let i = resultArr.length; i < 5; i++) {
-                resultArr.push('⬜️')
+                resultArr.push('⬛')
             }
         }
         const resultString = resultArr.join('')
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const shareButton = document.querySelector('.share-button')
     shareButton.addEventListener('click', () => {
         navigator.clipboard.writeText(
-            `Sonic Zonedle 30/4/26 \n🔵: ${state.resultString} \n\n#${state.resultComment}`
+            `Sonic Zonedle 30/4/26 \n🔵: ${state.resultString}\n\n#${state.resultComment}`
         )
 
     });

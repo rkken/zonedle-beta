@@ -939,7 +939,7 @@ export const answers = [
 
         {
             zone: 'Mad Space',
-            source: 'assets/sa2/MS.png',
+            source: 'assets/sa2/MaS.png',
             game: 'Sonic Adventure 2'
         },
 
@@ -965,6 +965,92 @@ export const answers = [
             zone: 'Green Hill',
             source: 'assets/sa2/GH.png',
             game: 'Sonic Adventure 2'
+        },
+    //#endregion
+    //#region Sonic Heroes
+
+        {
+            zone: 'Seaside Hill',
+            source: 'assets/sh/SH.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Ocean Palace',
+            source: 'assets/sh/OP.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Grand Metropolis',
+            source: 'assets/sh/GM.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Power Plant',
+            source: 'assets/sh/PP.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Casino Park',
+            source: 'assets/sh/CP.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'BINGO Highway',
+            source: 'assets/sh/BINGOH.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Rail Canyon',
+            source: 'assets/sh/RC.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Bullet Station',
+            source: 'assets/sh/BS.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Frog Forest',
+            source: 'assets/sh/FF.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Lost Jungle',
+            source: 'assets/sh/LJ.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Hang Castle',
+            source: 'assets/sh/HC.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Mystic Mansion',
+            source: 'assets/sh/MM.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Egg Fleet',
+            source: 'assets/sh/EF.png',
+            game: 'Sonic Heroes'
+        },
+
+        {
+            zone: 'Final Fortress',
+            source: 'assets/sh/FF.png',
+            game: 'Sonic Heroes'
         },
     //#endregion
     ]
