@@ -978,7 +978,8 @@ export const answers = [
         {
             zone: 'Ocean Palace',
             source: 'assets/sh/OP.png',
-            game: 'Sonic Heroes'
+            game: 'Sonic Heroes',
+            override: '60% 60%'
         },
 
         {
@@ -990,7 +991,8 @@ export const answers = [
         {
             zone: 'Power Plant',
             source: 'assets/sh/PP.png',
-            game: 'Sonic Heroes'
+            game: 'Sonic Heroes',
+            override: '30% 30%'
         },
 
         {
@@ -1001,7 +1003,7 @@ export const answers = [
 
         {
             zone: 'BINGO Highway',
-            source: 'assets/sh/BINGOH.png',
+            source: 'assets/sh/BH.png',
             game: 'Sonic Heroes'
         },
 
@@ -1049,7 +1051,7 @@ export const answers = [
 
         {
             zone: 'Final Fortress',
-            source: 'assets/sh/FF.png',
+            source: 'assets/sh/FiF.png',
             game: 'Sonic Heroes'
         },
     //#endregion
