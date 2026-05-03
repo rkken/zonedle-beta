@@ -78,7 +78,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 suggestionList.appendChild(li)
             });
+        }
+        else {
+           suggestionDisplay.style.opacity = '0%' 
         };
+
         const listItems = document.querySelectorAll('li')
         listItems.forEach(li => li.addEventListener('click', () => {
             input.value = li.children[0].innerText
@@ -112,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function nextRound(attempt) {
         const statusIndicators = document.querySelectorAll('.status-container > div')
         if (!attempt) {
-            resultArr.push('⬜️')
+            resultArr.push('⬜')
             statusIndicators[round-1].style.opacity = '1'
             statusIndicators[round-1].style.backgroundColor = '#b0b0b0ff'
         }
