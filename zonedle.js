@@ -12,6 +12,30 @@ document.addEventListener('DOMContentLoaded', () => {
     let resultArr = []
     let state = {}
 
+    //get day
+
+    function getDayNumber() {
+        const start = new Date ('2026-05-03T00:00:00Z')
+        const now = new Date();
+
+        const diff = Date.UTC(
+            now.getUTCFullYear(),
+            now.getUTCMonth(),
+            now.getUTCDate())
+            - Date.UTC(
+            start.getUTCFullYear(),
+            start.getUTCMonth(),
+            start.getUTCDate()
+            );
+        return Math.floor(diff / (1000 * 60 * 60 * 24))
+        console.log(diff)
+    }
+
+    function randomSeed(seed) {
+        const x = Math.sin(seed) * 10000;
+        return (x - Math.floor(x)) * 41
+    }
+
     /* come back to this
     const saved = localStorage.getItem('state')
     if (saved) {
@@ -21,20 +45,22 @@ document.addEventListener('DOMContentLoaded', () => {
     */
 
     //solution set up (default for now)
-    let index = 0
+    let index = (Math.floor(randomSeed(getDayNumber()) * answers.length) + 174) % answers.length
+    console.log(index)
     let solution = answers[index]
 
     let scale = 10
     imageDisplay.src = solution.source
-    imageDisplay.style.transformOrigin = solution.override ? solution.override : '30% 30%'
+    imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
     imageDisplay.style.transform = `scale(${scale})`
     //for debugging purposes
+    /*
     document.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowRight') {
             index++
             solution = answers[index]
             imageDisplay.src = answers[index].source
-            console.log(`${solution.game} - ${solution.zone}`)
+            console.log(`${solution.game} - ${solution.zone} (${index})`)
             imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
         }
         else if (event.key === 'ArrowLeft') {
@@ -45,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
         }
     })
+    */
 
 
 
@@ -223,4 +250,37 @@ document.addEventListener('DOMContentLoaded', () => {
         )
 
     });
+
+    //timer
+
+    const timerDisplay = document.querySelector('.next-timer')
+    setInterval(() => {
+        const timeUntilReset = getTimeUntiReset()
+        timerDisplay.textContent = formatTime(timeUntilReset) 
+    }, 1000)
+
+    setTimeout(nextChallenge(), getTimeUntiReset())
+
+    function nextChallenge() {
+        console.log(getDayNumber())
+    }
+
+
+    function getTimeUntiReset() {
+        const now = new Date
+        const nextReset = new Date();
+        nextReset.setUTCHours(24, 0, 0, 0)
+
+        return nextReset - now
+    }
+    
+    function formatTime(ms) {
+        const totalSeconds = Math.floor(ms/1000);
+
+        const hours = String(Math.floor(totalSeconds/3600)).padStart(2, '0')
+        const minutes = String(Math.floor((totalSeconds % 3600)/60)).padStart(2, '0')
+        const seconds = String(totalSeconds % 60).padStart(2, '0')
+
+        return `${hours}:${minutes}:${seconds}`
+    } 
 });

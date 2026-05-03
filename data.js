@@ -3,7 +3,8 @@ export const answers = [
         {
             zone: 'Green Hill Zone',
             source: 'assets/s1/GHZ.png',
-            game: 'Sonic the Hedgehog'
+            game: 'Sonic the Hedgehog',
+            override: '30% 30%'
         },
         {
             zone: 'Marble Zone',
