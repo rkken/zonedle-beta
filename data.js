@@ -1056,4 +1056,802 @@ export const answers = [
             game: 'Sonic Heroes'
         },
     //#endregion
+    //#region Sonic Advance
+
+        {
+            zone: 'Neo Green Hill Zone',
+            source: 'assets/sav1/NGHZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'Secret Base Zone',
+            source: 'assets/sav1/SBZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'Casino Paradise Zone',
+            source: 'assets/sav1/CPZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'Ice Mountain Zone',
+            source: 'assets/sav1/IMZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'Angel Island Zone',
+            source: 'assets/sav1/AIZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'Cosmic Angel Zone',
+            source: 'assets/sav1/CAZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'X-Zone',
+            source: 'assets/sav1/XZ.png',
+            game: 'Sonic Advance'
+        },
+
+        {
+            zone: 'The Moon Zone',
+            source: 'assets/sav1/TMZ.png',
+            game: 'Sonic Advance',
+            override: '50% 20%'
+        },
+    //#endregion
+    //#region Sonic Advance 2
+
+        {
+            zone: 'Leaf Forest',
+            source: 'assets/sav2/LF.png',
+            game: 'Sonic Advance 2'
+        },
+
+        {
+            zone: 'Hot Crater',
+            source: 'assets/sav2/HC.png',
+            game: 'Sonic Advance 2',
+            override: "50% 70%"
+        },
+
+        {
+            zone: 'Music Plant',
+            source: 'assets/sav2/MP.png',
+            game: 'Sonic Advance 2'
+        },
+
+        {
+            zone: 'Ice Paradise',
+            source: 'assets/sav2/IP.png',
+            game: 'Sonic Advance 2',
+            override: "20% 80%"
+        },
+
+        {
+            zone: 'Sky Canyon',
+            source: 'assets/sav2/SC.png',
+            game: 'Sonic Advance 2',
+            override: "50% 50%"
+        },
+
+        {
+            zone: 'Techno Base',
+            source: 'assets/sav2/TB.png',
+            game: 'Sonic Advance 2'
+        },
+
+        {
+            zone: 'Egg Utopia',
+            source: 'assets/sav2/EU.png',
+            game: 'Sonic Advance 2'
+        },
+
+        {
+            zone: 'XX',
+            source: 'assets/sav2/XX.png',
+            game: 'Sonic Advance 2',
+            override: '50% 60%'
+        },
+
+        {
+            zone: 'True Area 53',
+            source: 'assets/sav2/TA53.png',
+            game: 'Sonic Advance 2'
+        },
+    //#endregion
+    //#region Sonic Advance 3
+
+        {
+            zone: 'Route 99',
+            source: 'assets/sav3/R99.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Sunset Hill',
+            source: 'assets/sav3/SH.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Ocean Base',
+            source: 'assets/sav3/OB.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Toy Kingdom',
+            source: 'assets/sav3/TK.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Twinkle Snow',
+            source: 'assets/sav3/TS.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Cyber Track',
+            source: 'assets/sav3/CT.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Chaos Angel',
+            source: 'assets/sav3/CA.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Altar Emerald',
+            source: 'assets/sav3/AE.png',
+            game: 'Sonic Advance 3'
+        },
+
+        {
+            zone: 'Nonagression',
+            source: 'assets/sav3/N.png',
+            game: 'Sonic Advance 3'
+        },
+    //#endregion
+    /*//#region Shadow the Hedgehog
+
+        {
+            zone: 'Westopolis',
+            source: 'assets/sth05/W.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Digital Circuit',
+            source: 'assets/sth05/DC.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Glyphic Canyon',
+            source: 'assets/sth05/GC.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Lethal Highway',
+            source: 'assets/sth05/LH.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Cryptic Castle',
+            source: 'assets/sth05/CC.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Prison Island',
+            source: 'assets/sth05/PI.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Circus Park',
+            source: 'assets/sth05/CP.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Central City',
+            source: 'assets/sth05/CC.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'The Doom',
+            source: 'assets/sth05/TD.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Sky Troops',
+            source: 'assets/sth05/ST.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Mad Matrix',
+            source: 'assets/sth05/MM.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Death Ruins',
+            source: 'assets/sth05/DR.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'The ARK',
+            source: 'assets/sth05/TA.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Air Fleet',
+            source: 'assets/sth05/AF.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Iron Jungle',
+            source: 'assets/sth05/IJ.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Space Gadget',
+            source: 'assets/sth05/SG.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Lost Impact',
+            source: 'assets/sth05/LI.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'GUN Fortress',
+            source: 'assets/sth05/GF.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Black Comet',
+            source: 'assets/sth05/BC.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Lava Shelter',
+            source: 'assets/sth05/LS.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Cosmic Fall',
+            source: 'assets/sth05/CF.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'Final Haunt',
+            source: 'assets/sth05/FH.png',
+            game: 'Shadow the Hedgehog'
+        },
+
+        {
+            zone: 'The Last Way',
+            source: 'assets/sth05/TLW.png',
+            game: 'Shadow the Hedgehog'
+        },
+    //#endregion
+    //#region Sonic 06
+
+        {
+            zone: 'Wave Ocean',
+            source: 'assets/sth06/WO.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Dusty Desert',
+            source: 'assets/sth06/DD.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'White Acropolis',
+            source: 'assets/sth06/WA.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Crisis City',
+            source: 'assets/sth06/CC.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Flame Core',
+            source: 'assets/sth06/FC.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Radical Train',
+            source: 'assets/sth06/RT.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Tropical Jungle',
+            source: 'assets/sth06/TJ.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Kingdom Valley',
+            source: 'assets/sth06/KV.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'Aquatic Base',
+            source: 'assets/sth06/AB.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+
+        {
+            zone: 'End of the World',
+            source: 'assets/sth06/EOTW.png',
+            game: 'Sonic the Hedgehog (2006)'
+        },
+    //#endregion
+    //#region Sonic Rush
+
+        {
+            zone: 'Leaf Storm',
+            source: 'assets/sr/LS.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Water Palace',
+            source: 'assets/sr/WP.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Mirage Road',
+            source: 'assets/sr/MR.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Night Carnival',
+            source: 'assets/sr/NC.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Huge Crisis',
+            source: 'assets/sr/HC.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Altitude Limit',
+            source: 'assets/sr/AL.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Dead Line',
+            source: 'assets/sr/DL.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Unknown',
+            source: 'assets/sr/U.png',
+            game: 'Sonic Rush'
+        },
+
+        {
+            zone: 'Exception',
+            source: 'assets/sr/E.png',
+            game: 'Sonic Rush'
+        },
+    //#endregion
+    //#region Sonic Rush Adventure
+
+        {
+            zone: 'Plant Kingdom',
+            source: 'assets/sra/PK.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Machine Labyrinth',
+            source: 'assets/sra/ML.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Coral Cave',
+            source: 'assets/sra/CC.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Haunted Ship',
+            source: 'assets/sra/HS.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Blizzard Peaks',
+            source: 'assets/sra/BP.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Sky Babylon',
+            source: 'assets/sra/SB.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Pirates\' Island',
+            source: 'assets/sra/PI.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Big Swell',
+            source: 'assets/sra/BS.png',
+            game: 'Sonic Rush Adventure'
+        },
+
+        {
+            zone: 'Deep Core',
+            source: 'assets/sra/DC.png',
+            game: 'Sonic Rush Adventure'
+        },
+    //#endregion
+    //#region Sonic Rivals
+
+        {
+            zone: 'Forest Falls Zone',
+            source: 'assets/sri/FFZ.png',
+            game: 'Sonic Rivals'
+        },
+
+        {
+            zone: 'Colosseum Highway Zone',
+            source: 'assets/sri/CHZ.png',
+            game: 'Sonic Rivals'
+        },
+
+        {
+            zone: 'Sky Park Zone',
+            source: 'assets/sri/SPZ.png',
+            game: 'Sonic Rivals'
+        },
+
+        {
+            zone: 'Crystal Mountain Zone',
+            source: 'assets/sri/CMZ.png',
+            game: 'Sonic Rivals'
+        },
+
+        {
+            zone: 'Death Yard Zone',
+            source: 'assets/sri/DYZ.png',
+            game: 'Sonic Rivals'
+        },
+
+        {
+            zone: 'Meteor Base Zone',
+            source: 'assets/sri/MBZ.png',
+            game: 'Sonic Rivals'
+        },
+    //#endregion
+    //#region Sonic Rivals 2
+
+        {
+            zone: 'Blue Coast',
+            source: 'assets/sri2/BC.png',
+            game: 'Sonic Rivals 2'
+        },
+
+        {
+            zone: 'Sunset Forest Zone',
+            source: 'assets/sri2/SFZ.png',
+            game: 'Sonic Rivals 2'
+        },
+
+        {
+            zone: 'Neon Palace Zone',
+            source: 'assets/sri2/NPZ.png',
+            game: 'Sonic Rivals 2'
+        },
+
+        {
+            zone: 'Frontier Canyon Zone',
+            source: 'assets/sri2/FCZ.png',
+            game: 'Sonic Rivals 2'
+        },
+
+        {
+            zone: 'Mystic Haunt Zone',
+            source: 'assets/sri2/MHZ.png',
+            game: 'Sonic Rivals 2'
+        },
+
+        {
+            zone: 'Chaotic Inferno Zone',
+            source: 'assets/sri2/CIZ.png',
+            game: 'Sonic Rivals 2'
+        },
+    //#endregion
+    //#region Sonic and the Secret Rings
+
+        {
+            zone: 'Lost Prologue',
+            source: 'assets/ssr/LP.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Sand Oasis',
+            source: 'assets/ssr/SO.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Dinosaur Jungle',
+            source: 'assets/ssr/DJ.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Evil Foundry',
+            source: 'assets/ssr/EF.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Levitated Ruin',
+            source: 'assets/ssr/LR.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Pirate Storm',
+            source: 'assets/ssr/PS.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Skeleton Dome',
+            source: 'assets/ssr/SD.png',
+            game: 'Sonic and the Secret Rings'
+        },
+
+        {
+            zone: 'Night Palace',
+            source: 'assets/ssr/NP.png',
+            game: 'Sonic and the Secret Rings'
+        },
+    //#endregion
+    //#region Sonic and the Black Knight
+
+        {
+            zone: 'Misty Lake',
+            source: 'assets/sbk/ML.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Camelot Castle',
+            source: 'assets/sbk/CC.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Deep Woods',
+            source: 'assets/sbk/DW.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Titanic Plain',
+            source: 'assets/sbk/TP.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Crystal Cave',
+            source: 'assets/sbk/CC.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Molten Mine',
+            source: 'assets/sbk/MM.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Faraway Avalon',
+            source: 'assets/sbk/FA.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Knight\'s Passage',
+            source: 'assets/sbk/KP.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Shrouded Forest',
+            source: 'assets/sbk/SF.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Great Megalith',
+            source: 'assets/sbk/GM.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'The Cauldron',
+            source: 'assets/sbk/TC.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Dragon\'s Lair',
+            source: 'assets/sbk/DL.png',
+            game: 'Sonic and the Black Knight'
+        },
+
+        {
+            zone: 'Dark Hollow',
+            source: 'assets/sbk/DH.png',
+            game: 'Sonic and the Black Knight'
+        },
+    //#endregion
+    //#region Sonic Unleashed (360/PS3)
+
+        {
+            zone: 'Windmill Isle (Day)',
+            source: 'assets/su/WI1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Windmill Isle (Night)',
+            source: 'assets/su/WI2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Savannah Citadel (Day)',
+            source: 'assets/su/SC1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Savannah Citadel (Night)',
+            source: 'assets/su/SC2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Cool Edge (Day)',
+            source: 'assets/su/CE1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Cool Edge (Night)',
+            source: 'assets/su/CE2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Rooftop Run (Day)',
+            source: 'assets/su/RR1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Rooftop Run (Night)',
+            source: 'assets/su/RR2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Dragon Road (Day)',
+            source: 'assets/su/DR1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Dragon Road (Night)',
+            source: 'assets/su/DR2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Arid Sands (Day)',
+            source: 'assets/su/AS1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Arid Sands (Night)',
+            source: 'assets/su/AS2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Skyscraper Scamper (Day)',
+            source: 'assets/su/SS1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Skyscraper Scamper (Night)',
+            source: 'assets/su/SS2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Jungle Joyride (Day)',
+            source: 'assets/su/JJ1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Jungle Joyride (Night)',
+            source: 'assets/su/JJ2.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Eggmanland (Day)',
+            source: 'assets/su/E1.png',
+            game: 'Sonic Unleashed'
+        },
+
+        {
+            zone: 'Eggmanland (Night)',
+            source: 'assets/su/E2.png',
+            game: 'Sonic Unleashed'
+        },
+//#endregion
+    */
     ]

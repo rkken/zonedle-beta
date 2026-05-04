@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
     imageDisplay.style.transform = `scale(${scale})`
     //for debugging purposes
-    /*
+
     document.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowRight') {
             index++
@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
             imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
         }
     })
-    */
 
 
 
@@ -246,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const shareButton = document.querySelector('.share-button')
     shareButton.addEventListener('click', () => {
         navigator.clipboard.writeText(
-            `Sonic Zonedle 30/4/26 \n🔵: ${state.resultString}\n\n#${state.resultComment}`
+            `Sonic Zonedle #${getDayNumber()} \n🔵: ${state.resultString}\n\n#${state.resultComment}`
         )
 
     });
