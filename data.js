@@ -1223,7 +1223,7 @@ export const answers = [
             game: 'Sonic Advance 3'
         },
     //#endregion
-    /*//#region Shadow the Hedgehog
+    //#region Shadow the Hedgehog
 
         {
             zone: 'Westopolis',
@@ -1300,7 +1300,8 @@ export const answers = [
         {
             zone: 'The ARK',
             source: 'assets/sth05/TA.png',
-            game: 'Shadow the Hedgehog'
+            game: 'Shadow the Hedgehog',
+            override: '70% 70%'
         },
 
         {
@@ -1330,7 +1331,8 @@ export const answers = [
         {
             zone: 'GUN Fortress',
             source: 'assets/sth05/GF.png',
-            game: 'Shadow the Hedgehog'
+            game: 'Shadow the Hedgehog',
+            override: '70% 30%'
         },
 
         {
@@ -1454,7 +1456,8 @@ export const answers = [
         {
             zone: 'Huge Crisis',
             source: 'assets/sr/HC.png',
-            game: 'Sonic Rush'
+            game: 'Sonic Rush',
+            override: '20% 80%'
         },
 
         {
@@ -1483,6 +1486,11 @@ export const answers = [
     //#endregion
     //#region Sonic Rush Adventure
 
+        {
+            zone: 'Whale Point',
+            source: 'assets/sra/WP.png',
+            game: 'Sonic Rush Adventure'
+        },
         {
             zone: 'Plant Kingdom',
             source: 'assets/sra/PK.png',
@@ -1853,5 +1861,4 @@ export const answers = [
             game: 'Sonic Unleashed'
         },
 //#endregion
-    */
     ]
