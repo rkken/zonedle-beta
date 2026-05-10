@@ -1699,7 +1699,7 @@ export const answers = [
 
         {
             zone: 'Crystal Cave',
-            source: 'assets/sbk/CC.png',
+            source: 'assets/sbk/CrC.png',
             game: 'Sonic and the Black Knight'
         },
 
@@ -1755,109 +1755,109 @@ export const answers = [
 
         {
             zone: 'Windmill Isle (Day)',
-            source: 'assets/su/WI1.png',
+            source: 'assets/su/WID.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Windmill Isle (Night)',
-            source: 'assets/su/WI2.png',
+            source: 'assets/su/WIN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Savannah Citadel (Day)',
-            source: 'assets/su/SC1.png',
+            source: 'assets/su/SCD.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Savannah Citadel (Night)',
-            source: 'assets/su/SC2.png',
+            source: 'assets/su/SCN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Cool Edge (Day)',
-            source: 'assets/su/CE1.png',
+            source: 'assets/su/CED.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Cool Edge (Night)',
-            source: 'assets/su/CE2.png',
+            source: 'assets/su/CEN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Rooftop Run (Day)',
-            source: 'assets/su/RR1.png',
+            source: 'assets/su/RRD.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Rooftop Run (Night)',
-            source: 'assets/su/RR2.png',
+            source: 'assets/su/RRN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Dragon Road (Day)',
-            source: 'assets/su/DR1.png',
+            source: 'assets/su/DRD.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Dragon Road (Night)',
-            source: 'assets/su/DR2.png',
+            source: 'assets/su/DRN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Arid Sands (Day)',
-            source: 'assets/su/AS1.png',
+            source: 'assets/su/ASD.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Arid Sands (Night)',
-            source: 'assets/su/AS2.png',
+            source: 'assets/su/ASN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Skyscraper Scamper (Day)',
-            source: 'assets/su/SS1.png',
+            source: 'assets/su/SSD.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Skyscraper Scamper (Night)',
-            source: 'assets/su/SS2.png',
+            source: 'assets/su/SSN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Jungle Joyride (Day)',
-            source: 'assets/su/JJ1.png',
+            source: 'assets/su/JJD.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Jungle Joyride (Night)',
-            source: 'assets/su/JJ2.png',
+            source: 'assets/su/JJN.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Eggmanland (Day)',
-            source: 'assets/su/E1.png',
+            source: 'assets/su/ED.png',
             game: 'Sonic Unleashed'
         },
 
         {
             zone: 'Eggmanland (Night)',
-            source: 'assets/su/E2.png',
+            source: 'assets/su/EN.png',
             game: 'Sonic Unleashed'
         },
 //#endregion
