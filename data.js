@@ -1489,24 +1489,28 @@ export const answers = [
         {
             zone: 'Whale Point',
             source: 'assets/sra/WP.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '30% 30%'
         },
         {
             zone: 'Plant Kingdom',
             source: 'assets/sra/PK.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '20% 80%'
         },
 
         {
             zone: 'Machine Labyrinth',
             source: 'assets/sra/ML.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '30% 20%'
         },
 
         {
             zone: 'Coral Cave',
             source: 'assets/sra/CC.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '40% 90%'
         },
 
         {
@@ -1518,19 +1522,22 @@ export const answers = [
         {
             zone: 'Blizzard Peaks',
             source: 'assets/sra/BP.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '50% 20%'
         },
 
         {
             zone: 'Sky Babylon',
             source: 'assets/sra/SB.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '50% 10%'
         },
 
         {
             zone: 'Pirates\' Island',
             source: 'assets/sra/PI.png',
-            game: 'Sonic Rush Adventure'
+            game: 'Sonic Rush Adventure',
+            override: '20% 90%'
         },
 
         {
@@ -1568,7 +1575,8 @@ export const answers = [
         {
             zone: 'Crystal Mountain Zone',
             source: 'assets/sri/CMZ.png',
-            game: 'Sonic Rivals'
+            game: 'Sonic Rivals',
+            override: '90% 30%'
         },
 
         {
@@ -1586,8 +1594,8 @@ export const answers = [
     //#region Sonic Rivals 2
 
         {
-            zone: 'Blue Coast',
-            source: 'assets/sri2/BC.png',
+            zone: 'Blue Coast Zone',
+            source: 'assets/sri2/BCZ.png',
             game: 'Sonic Rivals 2'
         },
 
