@@ -1869,4 +1869,1288 @@ export const answers = [
             game: 'Sonic Unleashed'
         },
 //#endregion
+    //#region Sonic 4 Episode 1
+
+        {
+            zone: 'Splash Hill Zone',
+            source: 'assets/s4ep1/SHZ.png',
+            game: 'Sonic the Hedgehog 4: Episode I'
+        },
+
+        {
+            zone: 'Casino Street Zone',
+            source: 'assets/s4ep1/CSZ.png',
+            game: 'Sonic the Hedgehog 4: Episode I'
+        },
+
+        {
+            zone: 'Lost Labyrinth Zone',
+            source: 'assets/s4ep1/LLZ.png',
+            game: 'Sonic the Hedgehog 4: Episode I'
+        },
+
+        {
+            zone: 'Mad Gear Zone',
+            source: 'assets/s4ep1/MGZ.png',
+            game: 'Sonic the Hedgehog 4: Episode I'
+        },
+
+        {
+            zone: 'E.G.G. Station Zone',
+            source: 'assets/s4ep1/ESZ.png',
+            game: 'Sonic the Hedgehog 4: Episode I'
+        },
+//#endregion
+    //#region Sonic 4 Episode 2
+
+        {
+            zone: 'Sylvania Castle Zone',
+            source: 'assets/s4ep2/SCZ.png',
+            game: 'Sonic the Hedgehog 4: Episode II'
+        },
+
+        {
+            zone: 'White Park Zone',
+            source: 'assets/s4ep2/WPZ.png',
+            game: 'Sonic the Hedgehog 4: Episode II'
+        },
+
+        {
+            zone: 'Oil Desert Zone',
+            source: 'assets/s4ep2/ODZ.png',
+            game: 'Sonic the Hedgehog 4: Episode II'
+        },
+
+        {
+            zone: 'Sky Fortress Zone',
+            source: 'assets/s4ep2/SFZ.png',
+            game: 'Sonic the Hedgehog 4: Episode II'
+        },
+
+        {
+            zone: 'Death Egg mk.II Zone',
+            source: 'assets/s4ep2/DE2Z.png',
+            game: 'Sonic the Hedgehog 4: Episode II'
+        },
+//#endregion
+    //#region Sonic Colors
+        {
+            zone: 'Tropical Resort',
+            source: 'assets/sc/TR.png',
+            game: 'Sonic Colors'
+        },
+
+        {
+            zone: 'Sweet Mountain',
+            source: 'assets/sc/SM.png',
+            game: 'Sonic Colors'
+        },
+
+        {
+            zone: 'Starlight Carnival',
+            source: 'assets/sc/SC.png',
+            game: 'Sonic Colors'
+        },
+
+        {
+            zone: 'Planet Wisp',
+            source: 'assets/sc/PW.png',
+            game: 'Sonic Colors'
+        },
+
+        {
+            zone: 'Aquarium Park',
+            source: 'assets/sc/AP.png',
+            game: 'Sonic Colors'
+        },
+
+        {
+            zone: 'Asteroid Coaster',
+            source: 'assets/sc/AC.png',
+            game: 'Sonic Colors'
+        },
+
+        {
+            zone: 'Terminal Velocity',
+            source: 'assets/sc/TV.png',
+            game: 'Sonic Colors'
+        },
+//#endregion
+    //#region Sonic Colors DS
+        {
+            zone: 'Tropical Resort',
+            source: 'assets/scds/TR.png',
+            game: 'Sonic Colors (DS)'
+        },
+
+        {
+            zone: 'Sweet Mountain',
+            source: 'assets/scds/SM.png',
+            game: 'Sonic Colors (DS)'
+        },
+
+        {
+            zone: 'Starlight Carnival',
+            source: 'assets/scds/SC.png',
+            game: 'Sonic Colors (DS)'
+        },
+
+        {
+            zone: 'Planet Wisp',
+            source: 'assets/scds/PW.png',
+            game: 'Sonic Colors (DS)'
+        },
+
+        {
+            zone: 'Aquarium Park',
+            source: 'assets/scds/AP.png',
+            game: 'Sonic Colors (DS)'
+        },
+
+        {
+            zone: 'Asteroid Coaster',
+            source: 'assets/scds/AC.png',
+            game: 'Sonic Colors (DS)'
+        },
+
+        {
+            zone: 'Terminal Velocity',
+            source: 'assets/scds/TV.png',
+            game: 'Sonic Colors (DS)'
+        },
+//#endregion
+    //#region Sonic Generations
+
+            {
+                zone: 'Green Hill (Act 1)',
+                source: 'assets/sg/GH1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Green Hill (Act 2)',
+                source: 'assets/sg/GH2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Chemical Plant (Act 1)',
+                source: 'assets/sg/CP1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Chemical Plant (Act 2)',
+                source: 'assets/sg/CP2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Sky Sanctuary (Act 1)',
+                source: 'assets/sg/SS1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Sky Sanctuary (Act 2)',
+                source: 'assets/sg/SS2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Speed Highway (Act 1)',
+                source: 'assets/sg/SH1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Speed Highway (Act 2)',
+                source: 'assets/sg/SH2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'City Escape (Act 1)',
+                source: 'assets/sg/CE1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'City Escape (Act 2)',
+                source: 'assets/sg/CE2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Seaside Hill (Act 1)',
+                source: 'assets/sg/SH1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Seaside Hill (Act 2)',
+                source: 'assets/sg/SH2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Rooftop Run (Act 1)',
+                source: 'assets/sg/RR1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Rooftop Run (Act 2)',
+                source: 'assets/sg/RR2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Crisis City (Act 1)',
+                source: 'assets/sg/CC1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Crisis City (Act 2)',
+                source: 'assets/sg/CC2.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Planet Wisp (Act 1)',
+                source: 'assets/sg/PW1.png',
+                game: 'Sonic Generations'
+            },
+
+            {
+                zone: 'Planet Wisp (Act 2)',
+                source: 'assets/sg/PW2.png',
+                game: 'Sonic Generations'
+            },
+//#endregion
+    //#region Sonic Generations 3DS
+
+            {
+                zone: 'Green Hill (Act 1)',
+                source: 'assets/sg3ds/GH1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Green Hill (Act 2)',
+                source: 'assets/sg3ds/GH2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Casino Night (Act 1)',
+                source: 'assets/sg3ds/CN1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Casino Night (Act 2)',
+                source: 'assets/sg3ds/CN2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Mushroom Hill (Act 1)',
+                source: 'assets/sg3ds/MH1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Mushroom Hill (Act 2)',
+                source: 'assets/sg3ds/MH2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Emerald Coast (Act 1)',
+                source: 'assets/sg3ds/EC1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Emerald Coast (Act 2)',
+                source: 'assets/sg3ds/EC2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Radical Highway (Act 1)',
+                source: 'assets/sg3ds/RH1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Radical Highway (Act 2)',
+                source: 'assets/sg3ds/RH2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Water Palace (Act 1)',
+                source: 'assets/sg3ds/WP1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Water Palace (Act 2)',
+                source: 'assets/sg3ds/WP2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Tropical Resort (Act 1)',
+                source: 'assets/sg3ds/TR1.png',
+                game: 'Sonic Generations (3DS)'
+            },
+
+            {
+                zone: 'Tropical Resort (Act 2)',
+                source: 'assets/sg3ds/TR2.png',
+                game: 'Sonic Generations (3DS)'
+            },
+//#endregion
+    //#region Sonic Lost World
+
+            {
+                zone: 'Windy Hill (Zone 1)',
+                source: 'assets/slw/WH1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Windy Hill (Zone 2)',
+                source: 'assets/slw/WH2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Windy Hill (Zone 3)',
+                source: 'assets/slw/WH3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Windy Hill (Zone 4)',
+                source: 'assets/slw/WH4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Desert Ruins (Zone 1)',
+                source: 'assets/slw/DR1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Desert Ruins (Zone 2)',
+                source: 'assets/slw/DR2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Desert Ruins (Zone 3)',
+                source: 'assets/slw/DR3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Desert Ruins (Zone 4)',
+                source: 'assets/slw/DR4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Tropical Coast (Zone 1)',
+                source: 'assets/slw/TC1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Tropical Coast (Zone 2)',
+                source: 'assets/slw/TC2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Tropical Coast (Zone 3)',
+                source: 'assets/slw/TC3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Tropical Coast (Zone 4)',
+                source: 'assets/slw/TC4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Frozen Factory (Zone 1)',
+                source: 'assets/slw/FF1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Frozen Factory (Zone 2)',
+                source: 'assets/slw/FF2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Frozen Factory (Zone 3)',
+                source: 'assets/slw/FF3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Frozen Factory (Zone 4)',
+                source: 'assets/slw/FF4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Silent Forest (Zone 1)',
+                source: 'assets/slw/SF1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Silent Forest (Zone 2)',
+                source: 'assets/slw/SF2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Silent Forest (Zone 3)',
+                source: 'assets/slw/SF3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Silent Forest (Zone 4)',
+                source: 'assets/slw/SF4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Sky Road (Zone 1)',
+                source: 'assets/slw/SR1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Sky Road (Zone 2)',
+                source: 'assets/slw/SR2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Sky Road (Zone 3)',
+                source: 'assets/slw/SR3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Sky Road (Zone 4)',
+                source: 'assets/slw/SR4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Lava Mountain (Zone 1)',
+                source: 'assets/slw/LM1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Lava Mountain (Zone 2)',
+                source: 'assets/slw/LM2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Lava Mountain (Zone 3)',
+                source: 'assets/slw/LM3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Lava Mountain (Zone 4)',
+                source: 'assets/slw/LM4.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Hidden World (Act 1)',
+                source: 'assets/slw/HW1.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Hidden World (Act 2)',
+                source: 'assets/slw/HW2.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Hidden World (Act 3)',
+                source: 'assets/slw/HW3.png',
+                game: 'Sonic Lost World'
+            },
+
+            {
+                zone: 'Hidden World (Act 4)',
+                source: 'assets/slw/HW4.png',
+                game: 'Sonic Lost World'
+            },
+//#endregion
+    //#region Sonic Lost World 3DS
+
+            {
+                zone: 'Windy Hill (Act 1)',
+                source: 'assets/slw3ds/WH1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Windy Hill (Act 2)',
+                source: 'assets/slw3ds/WH2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Windy Hill (Act 3)',
+                source: 'assets/slw3ds/WH3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Desert Ruins (Act 1)',
+                source: 'assets/slw3ds/DR1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Desert Ruins (Act 2)',
+                source: 'assets/slw3ds/DR2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Desert Ruins (Act 3)',
+                source: 'assets/slw3ds/DR3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Tropical Coast (Act 1)',
+                source: 'assets/slw3ds/TC1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Tropical Coast (Act 2)',
+                source: 'assets/slw3ds/TC2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Tropical Coast (Act 3)',
+                source: 'assets/slw3ds/TC3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Frozen Factory (Act 1)',
+                source: 'assets/slw3ds/FF1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Frozen Factory (Act 2)',
+                source: 'assets/slw3ds/FF2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Frozen Factory (Act 3)',
+                source: 'assets/slw3ds/FF3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Silent Forest (Act 1)',
+                source: 'assets/slw3ds/SF1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Silent Forest (Act 2)',
+                source: 'assets/slw3ds/SF2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Silent Forest (Act 3)',
+                source: 'assets/slw3ds/SF3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Sky Road (Act 1)',
+                source: 'assets/slw3ds/SR1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Sky Road (Act 2)',
+                source: 'assets/slw3ds/SR2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Sky Road (Act 3)',
+                source: 'assets/slw3ds/SR3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Lava Mountain (Act 1)',
+                source: 'assets/slw3ds/LM1.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Lava Mountain (Act 2)',
+                source: 'assets/slw3ds/LM2.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+
+            {
+                zone: 'Lava Mountain (Act 3)',
+                source: 'assets/slw3ds/LM3.png',
+                game: 'Sonic Lost World (3DS)'
+            },
+//#endregion
+    //#region Sonic Mania
+
+            {
+                zone: 'Green Hill Zone (Act 1)',
+                source: 'assets/sm/GHZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Green Hill Zone (Act 2)',
+                source: 'assets/sm/GHZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Chemical Plant Zone (Act 1)',
+                source: 'assets/sm/CPZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Chemical Plant Zone (Act 2)',
+                source: 'assets/sm/CPZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Studiopolis Zone (Act 1)',
+                source: 'assets/sm/SZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Studiopolis Zone (Act 2)',
+                source: 'assets/sm/SZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Flying Battery Zone (Act 1)',
+                source: 'assets/sm/FBZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Flying Battery Zone (Act 2)',
+                source: 'assets/sm/FBZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Press Garden Zone (Act 1)',
+                source: 'assets/sm/PGZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Press Garden Zone (Act 2)',
+                source: 'assets/sm/PGZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Stardust Speedway Zone (Act 1)',
+                source: 'assets/sm/SSZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Stardust Speedway Zone (Act 2)',
+                source: 'assets/sm/SSZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Hydrocity Zone (Act 1)',
+                source: 'assets/sm/HZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Hydrocity Zone (Act 2)',
+                source: 'assets/sm/HZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Mirage Saloon Zone (Act 1)',
+                source: 'assets/sm/MSZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Mirage Saloon Zone (Act 2)',
+                source: 'assets/sm/MSZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Oil Ocean Zone (Act 1)',
+                source: 'assets/sm/OOZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Oil Ocean Zone (Act 2)',
+                source: 'assets/sm/OOZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Lava Reef Zone (Act 1)',
+                source: 'assets/sm/LRZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Lava Reef Zone (Act 2)',
+                source: 'assets/sm/LRZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Metallic Madness Zone (Act 1)',
+                source: 'assets/sm/MMZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Metallic Madness Zone (Act 2)',
+                source: 'assets/sm/MMZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Titanic Monarch Zone (Act 1)',
+                source: 'assets/sm/TMZ1.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Titanic Monarch Zone (Act 2)',
+                source: 'assets/sm/TMZ2.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Egg Reverie Zone',
+                source: 'assets/sm/ERZ.png',
+                game: 'Sonic Mania'
+            },
+
+            {
+                zone: 'Angel Island Zone',
+                source: 'assets/sm/AIZ.png',
+                game: 'Sonic Mania'
+            },
+//#endregion
+    //#region Sonic Forces
+
+        {
+            zone: 'Lost Valley',
+            source: 'assets/sf/LV.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Spaceport',
+            source: 'assets/sf/S.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Ghost Town',
+            source: 'assets/sf/GT.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Prison Hall',
+            source: 'assets/sf/PH.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Egg Gate',
+            source: 'assets/sf/EG.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Arsenal Pyramid',
+            source: 'assets/sf/AP.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Luminous Forest',
+            source: 'assets/sf/LF.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Green Hill',
+            source: 'assets/sf/GH.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Park Avenue',
+            source: 'assets/sf/PA.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Casino Forest',
+            source: 'assets/sf/CF.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Aqua Road',
+            source: 'assets/sf/AR.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Sunset Heights',
+            source: 'assets/sf/SH.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Capital City',
+            source: 'assets/sf/CC.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Chemical Plant',
+            source: 'assets/sf/CP.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Red Gate Bridge',
+            source: 'assets/sf/RGB.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Guardian Rock',
+            source: 'assets/sf/GR.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Network Terminal',
+            source: 'assets/sf/NT.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Death Egg',
+            source: 'assets/sf/DE.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Metropolitan Highway',
+            source: 'assets/sf/MH.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Null Space',
+            source: 'assets/sf/NS.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Imperial Tower',
+            source: 'assets/sf/IT.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Mortar Canyon',
+            source: 'assets/sf/MC.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Iron Fortress',
+            source: 'assets/sf/IF.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Final Judgement',
+            source: 'assets/sf/FJ.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Enemy Territory',
+            source: 'assets/sf/ET.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Eggman\'s Facility',
+            source: 'assets/sf/EF.png',
+            game: 'Sonic Forces'
+        },
+
+        {
+            zone: 'Virtual Reality',
+            source: 'assets/sf/VR.png',
+            game: 'Sonic Forces'
+        },
+//#endregion
+    //#region Sonic Frontiers
+
+        {
+            zone: 'Kronos Island',
+            source: 'assets/sfr/KI.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Ares Island',
+            source: 'assets/sfr/AI.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Chaos Island',
+            source: 'assets/sfr/CI.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Rhea Island',
+            source: 'assets/sfr/RI.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Ouranous Island',
+            source: 'assets/sfr/OI.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Cyber Space (Green Hill)',
+            source: 'assets/sfr/CSGH.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Cyber Space (Chemical Plant)',
+            source: 'assets/sfr/CSCP.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Cyber Space (Sky Sanctuary)',
+            source: 'assets/sfr/CSSS.png',
+            game: 'Sonic Frontiers'
+        },
+
+        {
+            zone: 'Cyber Space (Eternal Highway)',
+            source: 'assets/sfr/CSEH.png',
+            game: 'Sonic Frontiers'
+        },
+//#endregion
+    //#region Sonic Superstars
+
+            {
+                zone: 'Bridge Island Zone (Act 1)',
+                source: 'assets/ss/BIZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Bridge Island Zone (Act 2)',
+                source: 'assets/ss/BIZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Bridge Island Zone (Act Fruit)',
+                source: 'assets/ss/BIZF.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Speed Jungle Zone (Act 1)',
+                source: 'assets/ss/SJZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Speed Jungle Zone (Act Sonic)',
+                source: 'assets/ss/SJZS.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Speed Jungle Zone (Act 2)',
+                source: 'assets/ss/SJZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Sky Temple Zone',
+                source: 'assets/ss/STZ.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Pinball Carnival Zone (Act 1)',
+                source: 'assets/ss/PCZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Pinball Carnival Zone (Act 2)',
+                source: 'assets/ss/PCZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Pinball Carnival Zone (Act Fruit)',
+                source: 'assets/ss/PCZF.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Lagoon City Zone (Act 1)',
+                source: 'assets/ss/LCZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Lagoon City Zone (Act Amy)',
+                source: 'assets/ss/LCZA.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Lagoon City Zone (Act 2)',
+                source: 'assets/ss/LCZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Sand Sanctuary Zone',
+                source: 'assets/ss/SSZ.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Press Factory Zone (Act 1)',
+                source: 'assets/ss/PFZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Press Factory Zone (Act 2)',
+                source: 'assets/ss/PFZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Press Factory Zone (Act Fruit)',
+                source: 'assets/ss/PFZF.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Golden Capital Zone (Act 1)',
+                source: 'assets/ss/GCZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Golden Capital Zone (Act Knuckles)',
+                source: 'assets/ss/GCZK.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Golden Capital Zone (Act 2)',
+                source: 'assets/ss/GCZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Cyber Station Zone',
+                source: 'assets/ss/CSZ.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Frozen Base Zone (Act 1)',
+                source: 'assets/ss/FBZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Frozen Base Zone (Act Tails)',
+                source: 'assets/ss/FBZT.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Frozen Base Zone (Act 2)',
+                source: 'assets/ss/FBZ2.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Egg Fortress Zone (Act 1)',
+                source: 'assets/ss/EFZ1.png',
+                game: 'Sonic Superstars'
+            },
+
+            {
+                zone: 'Egg Fortress Zone (Act 2)',
+                source: 'assets/ss/EFZ2.png',
+                game: 'Sonic Superstars'
+            },
+//#endregion
+    //#region Shadow Generations
+
+            {
+                zone: 'Space Colony Ark (Act 1)',
+                source: 'assets/shg/SCA1.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Space Colony Ark (Act 2)',
+                source: 'assets/shg/SCA2.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Rail Canyon (Act 1)',
+                source: 'assets/shg/RC1.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Rail Canyon (Act 2)',
+                source: 'assets/shg/RC2.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Kingdom Valley (Act 1)',
+                source: 'assets/shg/KV1.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Kingdom Valley (Act 2)',
+                source: 'assets/shg/KV2.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Sunset Heights (Act 1)',
+                source: 'assets/shg/SH1.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Sunset Heights (Act 2)',
+                source: 'assets/shg/SH2.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Chaos Island (Act 1)',
+                source: 'assets/shg/CI1.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Chaos Island (Act 2)',
+                source: 'assets/shg/CI2.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Radical Highway (Act 1)',
+                source: 'assets/shg/RH1.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Radical Highway (Act 2)',
+                source: 'assets/shg/RH2.png',
+                game: 'Shadow Generations'
+            },
+
+            {
+                zone: 'Tokyo',
+                source: 'assets/shg/T.png',
+                game: 'Shadow Generations'
+            },
+//#endregion
     ]
