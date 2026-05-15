@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
     imageDisplay.style.transform = `scale(${scale})`
     //for debugging purposes
+    /*
 
     document.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowRight') {
@@ -71,6 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
             imageDisplay.style.transformOrigin = solution.override ? solution.override : '20%'
         }
     })
+
+    */
 
 
 
